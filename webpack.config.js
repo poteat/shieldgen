@@ -1,10 +1,11 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const path = require("path");
 const webpack = require("webpack");
+const nodeExternals = require("webpack-node-externals");
 
 module.exports = {
   entry: "./src/index.ts",
-  externals: ["aws-sdk"],
+  externals: ["aws-sdk", "fs", nodeExternals()],
   mode: "production",
   module: {
     rules: [

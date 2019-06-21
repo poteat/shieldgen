@@ -18,7 +18,6 @@ npm i -D shieldgen
 
 ```json
 "scripts": {
-  // ...
   "test": "jest --json --outputFile coverage/testResults.json && shieldgen"
 },
 ```

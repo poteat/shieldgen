@@ -1,6 +1,6 @@
 {
   "name": "shieldgen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Update your package readme on every test with build status and code coverage",
   "main": "dist/index.js",
   "scripts": {

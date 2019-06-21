@@ -4,7 +4,11 @@
   "description": "Update your package readme on every test with build status and code coverage",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "version": "webpack"
+  },
+  "bin": {
+    "shieldgen": "dist/index.js"
   },
   "repository": {
     "type": "git",

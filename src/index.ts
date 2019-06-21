@@ -40,7 +40,7 @@ const shield = (label: string, message: string, color: string) =>
   `![](https://img.shields.io/static/v1.svg?label=${label}&message=${message}&color=${color})`;
 
 const readmeUpdated: string = files.readme.replace(
-  /# (.*?) .*/,
+  /^.*/,
   `# ${packageName} ${shield(
     config.testing.label,
     buildStatus,

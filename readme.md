@@ -27,7 +27,7 @@ npm i -D shieldgen
 ```js
 module.exports = {
   // ...
-  collectCoverage: true
+  collectCoverage: true,
   coverageReporters: ["html"]
 };
 ```

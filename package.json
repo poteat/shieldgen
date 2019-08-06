@@ -48,8 +48,8 @@
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
-    "airtable": "^0.6.0",
+    "airtable": "^0.7.0",
     "hex-color-linterp": "^1.0.0",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.15"
   }
 }
